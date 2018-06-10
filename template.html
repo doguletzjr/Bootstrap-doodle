@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<!--
+    Add @media to hide sidebar
+    change image columns on smallers screens
+    change columns for infographics
+    powered by
+-->
+
+<body>
+    <header class="head">
+        <div class="col-md-12">
+            <div class="container top">
+                <div class="row small">
+                        <h2 class="logo-small">LOGO</h2>
+
+                            <span class="fa fa-bars"></span>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="hide-large"></div>
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 visible-md" id="sidebar-parent">
+                <nav class="nav flex-column" id="sidebar">
+                    <h2 class="logo">LOGO</h2>
+                    <ul class="list-unstyled text-right">
+                        <li>
+                            <a class="nav-link" href="#">Shirts</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#">Dresses</a>
+                        </li>
+                        <li data-toggle="collapse" data-target="#demo">
+                            <a class="nav-link">Jeans
+                                <i class="fas fa-caret-down"></i>
+                            </a>
+                        </li>
+                        <div id="demo" class="collapse show">
+                            <ul class="list-group">
+                                <li class="list-group-item nav-item">
+                                    <a class="nav-link" href="#" id="skinny">Skinny
+                                        <i class="fas fa-caret-right"></i>
+                                    </a>
+                                </li>
+                                <li class="list-group-item nav-item">
+                                    <a class="nav-link" href="#">Relaxed</a>
+                                </li>
+                                <li class="list-group-item nav-item">
+                                    <a class="nav-link" href="#">Bootcut</a>
+                                </li>
+                                <li class="list-group-item nav-item">
+                                    <a class="nav-link" href="#">Straight</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Jackets</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Gymwear</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blazers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Shoes</a>
+                        </li>
+                        <br>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Newsletter</a>
+                        </li>
+                        <li>
+                            <li class="nav-item" data-toggle="modal" data-target="#myModal">
+                                <a class="nav-link">Subscribe</a>
+                            </li>
+
+                            <!-- The Modal -->
+                            <div class="modal fade" id="myModal">
+                                <div class="modal-dialog modal-lg">
+                                    <div class="modal-content align-items-center">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h1 class="modal-title">Newsletter</h1>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <p class="text-center">Join our mailing list to receive updates on new arrivals and special offers.</p>
+                                            <input type="text" class="form-control" placeholder="Email" id="email">
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Subscribe</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-12 col-lg-9 ">
+                <div class="container top">
+                    <div class="row">
+                        <h3 class="float-left">Jeans</h3>
+                        <p class="right">
+                            <i class="fa fa-search"></i>
+                            <i class="fa fa-shopping-cart"></i>
+                        </p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <img src="images\jeans_main.jpg" width=100%>
+                            <div class="top-left">
+                                <h1 class="display-3">
+                                    <b>New arrivals</b>
+                                </h1>
+                                </br>
+                                <h2 class- "display-4">COLLECTION 2016</h2>
+                                <input type="button" class="btn btn-dark btn-lg" value="Shop now">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <p class="text-secondary">8 items</p>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="images\jeans1.jpg" width=100%>
+                            <p>Ripped Skinny Jeans
+                                <br>
+                                <b>$24.99</b>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="images\jeans2.jpg" width=100%>
+                            <p>Mega Ripped Jeans
+                                <br>
+                                <b>$19.99</b>
+                            </p>
+                        </div>
+                        <div class="clearfix visible-sm-block"></div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="images\jeans3.jpg" width=100%>
+                            <p>Washed Skinny Jeans
+                                <br>
+                                <b>$20.50</b>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="images\jeans1.jpg" width=100%>
+                            <p>Vintage Skinny Jeans
+                                <br>
+                                <b>$14.99</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="images\jeans2.jpg" width=100%>
+                            <p>Ripped Skinny Jeans
+                                <br>
+                                <b>$24.99</b>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="images\jeans3.jpg" width=100%>
+                            <p>Mega Ripped Jeans
+                                <br>
+                                <b>$19.99</b>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="images\jeans1.jpg" width=100%>
+                            <p>Washed Skinny Jeans
+                                <br>
+                                <b>$20.50</b>
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <img src="images\jeans3.jpg" width=100%>
+                            <p>Vintage Skinny Jeans
+                                <br>
+                                <b>$14.99</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container subscribe" id="getWidth">
+                    <h1>Subscribe</h1>
+                    <p>To get special offers and VIP treatment:</p>
+                    <input type="text" class="form-control" placeholder="Enter e-mail" width=100%>
+                    <input type="button" class="btn btn-danger" value="Subscribe">
+                </div>
+                <div class="container contact">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h4 class="text-center">Contact</h4>
+                            <p class="text-center">Questions? Go ahead</p>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Name" id="name">
+                                <input type="text" class="form-control" placeholder="Email" id="email">
+                                <input type="text" class="form-control" placeholder="Subject" id="subject">
+                                <input type="text" class="form-control" placeholder="Message" id="message">
+                                <input type="button" class="btn btn-dark form-control" value="Send">
+                            </div>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <h4>About</h4>
+                            <p>
+                                <a href="#">About us</a>
+                            </p>
+                            <p>
+                                <a href="#">We're hiring</a>
+                            </p>
+                            <p>
+                                <a href="#">Support</a>
+                            </p>
+                            <p>
+                                <a href="#">Find store</a>
+                            </p>
+                            <p>
+                                <a href="#">Shipment</a>
+                            </p>
+                            <p>
+                                <a href="#">Payment</a>
+                            </p>
+                            <p>
+                                <a href="#">Gift card</a>
+                            </p>
+                            <p>
+                                <a href="#">Return</a>
+                            </p>
+                            <p>
+                                <a href="#">Help</a>
+                            </p>
+                        </div>
+                        <div class="col-sm-4">
+                            <h4>Store</h4>
+                            <p>
+                                <i class="fa fa-map-pin"></i> Company Name</p>
+                            <p>
+                                <i class="fa fa-phone"></i> 0044123123</p>
+                            <p>
+                                <i class="fa fa-envelope"></i> ex@gmail.com</p>
+                            <h4>We accept</h4>
+                            <p>
+                                <i class="fa fa-credit-card"></i> Amex</p>
+                            <p>
+                                <i class="fa fa-credit-card"></i> Credit Card</p>
+                            <br>
+                            <i class="fa fa-facebook-official"></i>
+                            <i class="fa fa-instagram"></i>
+                            <i class="fa fa-snapchat"></i>
+                            <i class="fa fa-pinterest-p"></i>
+                            <i class="fa fa-twitter"></i>
+                            <i class="fa fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container powered text-center">
+                    <p>Powered by
+                        <a href="https://getbootstrap.com/docs/4.1/getting-started/introduction/">Bootstrap</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
